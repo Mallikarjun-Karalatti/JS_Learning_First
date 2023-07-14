@@ -27,4 +27,4 @@
        let whtsInThere = null;   //null
 
        console.log(typeof inComplete); // => type undefined
-       console.log(typeof whtsInThere); // => type object **Important**
+       console.log(typeof(whtsInThere)); // => type object **Important**
