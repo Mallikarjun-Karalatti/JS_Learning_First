@@ -23,8 +23,8 @@
    console.log( String(whtsInThere)+" : "+typeof( String(whtsInThere))); // value = null means "null"
 
    //conversion of other types to  Boolean
-   // syntax ->  Boolean();  all the below converion have type  Boolean
-   console.log( Boolean(accountHolder)+" : "+typeof( Boolean(accountHolder))); // value = NaN (Not a  Boolean)
-   console.log( Boolean(ageAsString)+" : "+typeof( Boolean(ageAsString))); // value = 21
-   console.log( Boolean(inComplete)+" : "+typeof( Boolean(inComplete))); // value = Nan
-   console.log( Boolean(whtsInThere)+" : "+typeof( Boolean(whtsInThere))); // value = 0
+   // syntax ->  Boolean();  all the below converion have type  boolean
+   console.log( Boolean(accountHolder)+" : "+typeof( Boolean(accountHolder))); // value = true , for empty string("") value would be false 
+   console.log( Boolean(ageAsString)+" : "+typeof( Boolean(ageAsString))); // value = true , for zero value would be false
+   console.log( Boolean(inComplete)+" : "+typeof( Boolean(inComplete))); // value = false
+   console.log( Boolean(whtsInThere)+" : "+typeof( Boolean(whtsInThere))); // value = false
