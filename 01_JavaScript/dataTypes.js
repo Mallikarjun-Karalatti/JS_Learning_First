@@ -4,12 +4,15 @@
 //DataTypes in JS
 /*
     a)Premitive
-      1)number    => till 2^53
-      2)string    => ""
+        TYPES     :   values 
+      1)number    => 
+      2)string    => from empty string("") with zero 
+                     length to the length with 2^53-1 charecters               
       3)boolean   => true/false
-      4)null      => standalone value 
-      5)undefined =>
-      6)symbol    => for uniqness
+      4)null      => has only one value i.e null
+      5)undefined => has only one value i.e undefined
+      6)symbol    => unique and unmutable
+                     set of all non-String values that may be used as the key of an Object property 
       7)bigint    =>
 
      b)UserDefined
