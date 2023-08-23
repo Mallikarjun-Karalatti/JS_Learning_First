@@ -35,7 +35,18 @@ chai();
 // }
 
 //implicit return 
-//const addTwo =addTwo = (num1,num2) => num1+num2;
-//const addTwo =addTwo = (num1,num2) => (num1+num2);
-//const addTwo =addTwo = (num1,num2) => ({name: "Robin"});
+//const addTwo  = (num1,num2) => num1+num2;
+//const addTwo  = (num1,num2) => (num1+num2);
+const addTwo =  (num1,num2) => ({name: "Robin"});
 console.log(addTwo(3,4));
+
+
+//IIFE --> Immediately Invoked Functioned Expressions
+//named IIFE
+(function chai(){
+  console.log("DB Connected")
+})();
+
+//unnamed IIFE
+( () => { console.log('DB Connected again')})();
+( (name) => { console.log(`Hello, ${name}`)})('Sam');
